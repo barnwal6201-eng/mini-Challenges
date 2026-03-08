@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1{
+  margin: 20px;
+}
+p{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cells{
+  width: 70px;
+  height: 70px;
+  border: 2px solid black; 
+}

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 90%;
+  font-family: sans-serif;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  margin: 15px auto;
+}
+textarea{
+  margin-top: 20px;
+  height: 90px;
+  width: 400px;
+  line-height: 2;
+}
+textarea:hover{
+  border: 3px solid blue;
+}
+.btns{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+.btns button{
+  height: 35px;
+  width: 100px;
+}
+h3{
+  margin-top: 20px;
+}
+p{
+  margin-top: 10px;
+}

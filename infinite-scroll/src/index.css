@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1{
+  margin: 20px;
+}
+p{
+  margin-top: 10px;
+  font-weight: bold;
+  color: blue;
+}
+.dataFlow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: scroll;
+}
+.box{
+  text-align: center;
+  height: 80px;
+  width: 80%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.loading{
+  margin: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

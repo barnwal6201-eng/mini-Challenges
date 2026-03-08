@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1{
+  margin: 20px;
+}
+.board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.cells{
+  width: 80px;
+  height: 80px;
+  border: 2px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(239, 239, 27, 0.564); 
+}
+button{
+  height: 40px;
+  width: 70px;
+  margin-top: 30px;
+  background-color: yellow;
+  border-radius: 10px;
+  border: 2px solid maroon;
+  font-weight: 900;
+}
+h2{
+  margin-top: 10px;
+}

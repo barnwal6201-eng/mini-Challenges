@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+input{
+  height: 50px;
+  width: 500px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+button{
+  height: 40px;
+  width: 115px;
+  border-color: white;
+  font-size: 20px;
+}
+h3{
+  margin-top: 30px;
+  font-weight: 500;
+}
