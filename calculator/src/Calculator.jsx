@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const App = () => {
+const Calculator = () => {
   const [value1, setValue1] = useState("");
   const [operators, setOperators] = useState("");
   const [value2, setValue2] = useState("");
@@ -154,4 +154,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Calculator;
