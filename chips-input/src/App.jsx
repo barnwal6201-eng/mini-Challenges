@@ -5,17 +5,17 @@ const App = () => {
   const [title, setTitle] = useState('')
    const [task, setTask] = useState([])
 
-  const submitBtn = (e) =>{
-    const copyTask = [...task];
+  
+  function handlekeyDown(e){
+    if(e.key === 'Enter'){
+      const copyTask = [...task];
     
     copyTask.push({title})
     
       setTask(copyTask)
 
     setTitle('')
-  }
-  function handlekeyDown(e){
-    if(e.key === 'Enter') submitBtn()
+    }
   }
 
   const delBtn =(idx) => {
