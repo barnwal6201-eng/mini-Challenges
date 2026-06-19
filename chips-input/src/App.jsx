@@ -5,10 +5,6 @@ const App = () => {
   const [title, setTitle] = useState('')
    const [task, setTask] = useState([])
 
-<<<<<<< HEAD
-  
-=======
->>>>>>> 4bd610c93221ac4decd43defca748f146fb74881
   function handlekeyDown(e){
     if(e.key === 'Enter'){
       const copyTask = [...task];
